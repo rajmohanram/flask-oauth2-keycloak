@@ -1,0 +1,7 @@
+{
+  "extends": ["config:python"],
+  "pip-compile": {
+    "enabled": true
+  },
+  "schedule": ["at any time"]
+}
