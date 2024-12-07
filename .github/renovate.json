@@ -1,7 +1,9 @@
 {
-  "extends": ["config:python"],
-  "pip-compile": {
-    "enabled": true
-  },
-  "schedule": ["at any time"]
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "managers": ["poetry"],
+      "enabled": true
+    }
+  ]
 }
